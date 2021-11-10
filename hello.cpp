@@ -15,7 +15,7 @@ int main(int argc, char*argv[]) {
     int result = gethostname(name, sizeof(name));
     
     
-    std::cout << "I am process " << getpid() << " out of " << totoal_processes <<
+    std::cout << "I am process " << getpid() << " out of " << total_processes <<
     ". I am running on " << name <<
     std::endl;
     MPI_Finalize();
